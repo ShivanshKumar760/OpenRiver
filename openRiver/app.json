@@ -3,6 +3,7 @@
     "name": "openRiver",
     "slug": "openRiver",
     "version": "1.0.0",
+    "scheme":"openRiver",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
