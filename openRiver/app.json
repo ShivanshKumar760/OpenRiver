@@ -1,9 +1,9 @@
 {
   "expo": {
     "name": "openRiver",
-    "slug": "openRiver",
+    "slug": "openriver",
     "version": "1.0.0",
-    "scheme":"openRiver",
+    "scheme": "openriver",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -14,16 +14,29 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shivansh749653.openRiver"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.shivansh749653.openRiver"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dfc96afa-e790-4ea2-a7f9-e235926e76b8"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/dfc96afa-e790-4ea2-a7f9-e235926e76b8"
     }
   }
 }
